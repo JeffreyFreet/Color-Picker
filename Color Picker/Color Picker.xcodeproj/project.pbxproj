@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3D88ADDA2087BA8A00087085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88ADD92087BA8A00087085 /* AppDelegate.swift */; };
-		3D88ADDC2087BA8A00087085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88ADDB2087BA8A00087085 /* ViewController.swift */; };
 		3D88ADDF2087BA8A00087085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D88ADDD2087BA8A00087085 /* Main.storyboard */; };
 		3D88ADE22087BA8A00087085 /* Color_Picker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D88ADE02087BA8A00087085 /* Color_Picker.xcdatamodeld */; };
 		3D88ADE42087BA8B00087085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D88ADE32087BA8B00087085 /* Assets.xcassets */; };
 		3D88ADE72087BA8B00087085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D88ADE52087BA8B00087085 /* LaunchScreen.storyboard */; };
+		3D88ADEF2087BB4C00087085 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88ADEE2087BB4C00087085 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D88ADD62087BA8A00087085 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D88ADD92087BA8A00087085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D88ADDB2087BA8A00087085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D88ADDE2087BA8A00087085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D88ADE12087BA8A00087085 /* Color_Picker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Color_Picker.xcdatamodel; sourceTree = "<group>"; };
 		3D88ADE32087BA8B00087085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D88ADE62087BA8B00087085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D88ADE82087BA8B00087085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D88ADEE2087BB4C00087085 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				3D88ADD92087BA8A00087085 /* AppDelegate.swift */,
-				3D88ADDB2087BA8A00087085 /* ViewController.swift */,
 				3D88ADDD2087BA8A00087085 /* Main.storyboard */,
 				3D88ADE32087BA8B00087085 /* Assets.xcassets */,
 				3D88ADE52087BA8B00087085 /* LaunchScreen.storyboard */,
 				3D88ADE82087BA8B00087085 /* Info.plist */,
 				3D88ADE02087BA8A00087085 /* Color_Picker.xcdatamodeld */,
+				3D88ADEE2087BB4C00087085 /* ColorPickerViewController.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D88ADE22087BA8A00087085 /* Color_Picker.xcdatamodeld in Sources */,
-				3D88ADDC2087BA8A00087085 /* ViewController.swift in Sources */,
 				3D88ADDA2087BA8A00087085 /* AppDelegate.swift in Sources */,
+				3D88ADEF2087BB4C00087085 /* ColorPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
